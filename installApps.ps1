@@ -24,7 +24,7 @@ wget https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi -o
 msiexec /q wsl_update_x64.msi
 Remove-item wsl_update_x64.msi
 wsl --set-default-version 2
-MoveDistroTo("docker-desktop", "D:\\wsl")
-MoveDistroTo("docker-desktop-data", "D:\\wsl")
+MoveDistroTo "docker-desktop" "D:\\wsl"
+MoveDistroTo "docker-desktop-data" "D:\\wsl"
 #windows insider new installation mode (w10 build 20246 or above) - see https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246
-wsl --install Ubuntu-20.04
+wsl --install -d Ubuntu-20.04
