@@ -28,3 +28,5 @@ MoveDistroTo "docker-desktop" "D:\\wsl"
 MoveDistroTo "docker-desktop-data" "D:\\wsl"
 #windows insider new installation mode (w10 build 20246 or above) - see https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246
 wsl --install -d Ubuntu-20.04
+MoveDistroTo "Ubuntu-20.04" "D:\\wsl"
+wsl --set-default -s Ubuntu-20.04
