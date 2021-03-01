@@ -14,7 +14,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 #disable uac
 Set-ItemProperty -Path REGISTRY::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System -Name ConsentPromptBehaviorAdmin -Value 0
 
-choco install vscode, notepadplusplus, docker-desktop, visualstudio2019community, ditto, git.install, nodejs, powertoys, keepass, notable, toggl, 7zip -y
+choco install vscode, notepadplusplus, docker-desktop, visualstudio2019community, git.install, nodejs, powertoys, keepass, notable, toggl, 7zip, s145.touchpad.fix -y
 #not working
 # choco install spotify -y
 
