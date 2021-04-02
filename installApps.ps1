@@ -14,8 +14,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 #disable uac
 Set-ItemProperty -Path REGISTRY::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System -Name ConsentPromptBehaviorAdmin -Value 0
 
-choco install vscode, notepadplusplus, docker-desktop, visualstudio2019community, git.install, nodejs, powertoys, keepass, notable, toggl, 7zip, microsoft-teams -y
-choco install lenovo-s145-touchpad-fix --version 1.0.0 --allowunofficial -y
+choco install vscode, notepadplusplus, docker-desktop, visualstudio2019community, git.install, nodejs, powertoys, keepass, notable, toggl, 7zip, microsoft-teams, microsoft-windows-terminal, heroku-cli -y
+choco install lenovo-s145-touchpad-fix --version 1.0.0
 #not working
 # choco install spotify -y
 
